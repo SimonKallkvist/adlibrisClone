@@ -92,6 +92,7 @@ h1 {
 /* -_- */
 .searchBtn {
   background-color: var(--brand-light-color);
+}
 
 .side-menu {
   font-weight: 600;
@@ -100,4 +101,3 @@ h1 {
 .side-menu li {
   height: 47 px;
 }
-
