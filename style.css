@@ -23,6 +23,7 @@ h1 {
   font-size: 26px;
 }
 
+<<<<<<< HEAD
 /* Grid Card Styling */
 .gridCard {
   display: flex;
@@ -82,3 +83,8 @@ h1 {
 }
 
 /* -_- */
+=======
+.searchBtn {
+  background-color: var(--brand-light-color);
+}
+>>>>>>> aa051c3b1c305cd22f0241f57b667325f9d450c1
