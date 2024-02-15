@@ -96,7 +96,7 @@ let bocker = [{
 ]
 let createDiv = () => {
     bocker.forEach((book) => {
-        console.log(book.img)
+        // console.log(book)
     })
 }
 createDiv()
