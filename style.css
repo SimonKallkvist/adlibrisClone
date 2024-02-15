@@ -25,6 +25,12 @@ h1 {
   font-size: 26px;
 }
 
+/* Header Styling */
+
+.upperbanner {
+  background-color: var(--brand-light-color);
+  height: 50 px;
+}
 /* Grid Card Styling */
 .gridCard {
   display: flex;
