@@ -1,24 +1,86 @@
 :root {
-  --brand-light-color: #ff0000;
-  --brand-dark-color: ;
-  --background-color: #fff;
-  --text-color: #3c374c;
-  --h1-color: #878787;
-  --filter-button-light-color: #e6e6e6;
-  --filter-button-dark-color: #cecece;
-  --symbol-color: #0177cc;
-  --title-text-color: #191919;
+    --brand-light-color: #ff0000;
+    --brand-dark-color: ;
+    --background-color: #fff;
+    --text-color: #3c374c;
+    --h1-color: #878787;
+    --filter-button-light-color: #e6e6e6;
+    --filter-button-dark-color: #cecece;
+    --symbol-color: #0177cc;
+    --title-text-color: #191919;
 }
 
 body {
-  font-family: "Montserrat", sans-serif;
+    font-family: "Montserrat", sans-serif;
 }
 
 .roboto-text {
-  font-family: "Roboto", sans-serif;
-  line-height: 19px;
+    font-family: "Roboto", sans-serif;
+    line-height: 19px;
 }
 
 h1 {
-  font-size: 26px;
+    font-size: 26px;
 }
+
+
+/* bookcard styling  */
+
+.book-card {
+    width: 80%;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    padding: 0 10px;
+    border: 1px solid black;
+}
+
+.left-section {
+    display: flex;
+    width: 50%;
+    gap: 10px;
+    height: 90%;
+}
+
+.book-card img {
+    width: 20%;
+    height: 60%;
+}
+
+.book-card a {
+    display: block;
+}
+
+.description .text {
+    width: 80%;
+}
+
+.price {
+    display: flex;
+    width: 30%;
+    height: 90%;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.btn-div {
+    width: 50%;
+}
+
+.btn-div button {
+    width: 100%;
+    background-color: #f40202;
+    height: 40px;
+    color: white;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    font-weight: bolder;
+}
+
+
+/* end */

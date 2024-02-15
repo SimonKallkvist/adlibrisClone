@@ -96,7 +96,12 @@ let bocker = [{
 ]
 let createDiv = () => {
     bocker.forEach((book) => {
-        console.log(book)
+        let newdiv = document.createElement("div");
+        newdiv.innerHTML = `
+
+  
+
+   `
 
     })
 }
