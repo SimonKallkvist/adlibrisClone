@@ -98,11 +98,50 @@ let createDiv = () => {
     bocker.forEach((book) => {
         let newdiv = document.createElement("div");
         newdiv.innerHTML = `
-
-  
+        <div class="book-card">
+        <div class="left-section">
+            <img src="${book.img} alt="">
+            <div class="description">
+                <a href="">title:${book.title}</a>
+                <a href="">authour:${book.author}</a>
+                <p>${book.year} år</p>
+                <p class="text">${book.description}</p>
+            </div>
+        </div>
+        <div class="price">
+            <div class="price-type">
+                <a href="">${book.price.bound}</a>
+                <a href="">${book.price.eBok}</a>
+                <a href="">${book.price.audio}</a>
+            </div>
+            <div class="btn-div">
+                <button class="btn">${book.price.bound} kr</button>
+                <button>${book.price.eBok} kr</button>
+                 <button>${book.price.audio} kr</button>
+            </div>
+        </div>
+    </div>
 
    `
 
+        document.body.append(newdiv)
+
+        let btns = document.querySelectorAll(".btn-div button")
+            // btns.forEach((btn) => {
+            //     console.log(btn)
+
+        //     if (book.price.bound === "" || book.price.eBok === "" || book.price.audio === "") {
+        //         btn.style.display = "none"
+        //     }
+
+
+        // })
     })
+
+
+
 }
+
+
+
 createDiv()

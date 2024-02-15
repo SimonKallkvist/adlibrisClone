@@ -12,15 +12,166 @@
 
 body {
     font-family: "Montserrat", sans-serif;
+    font-family: "Montserrat", sans-serif;
 }
 
 .roboto-text {
+    font-family: "Roboto", sans-serif;
     font-family: "Roboto", sans-serif;
     line-height: 19px;
 }
 
 h1 {
     font-size: 26px;
+}
+
+<<<<<<< HEAD
+/* Grid Card Styling */
+
+.gridCard {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    position: relative;
+    text-align: start;
+    /* align-items: flex-start; */
+    width: auto;
+    max-width: 220px;
+    gap: 16px;
+}
+
+.gridCard a {
+    color: var(--symbol-color);
+    text-decoration: underline;
+}
+
+.gridCardImg {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.reducedPriceTag {
+    position: absolute;
+    aspect-ratio: 1 / 1;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-weight: 800;
+    align-items: center;
+    top: 0;
+    left: -4px;
+    z-index: 10;
+    background: var(--brand-light-color);
+    padding: 8px;
+    border-radius: 50% 50% 0 50%;
+    -webkit-border-radius: ;
+    -moz-border-radius: ;
+    -ms-border-radius: ;
+    -o-border-radius: ;
+}
+
+.gridCard .btn {
+    align-self: stretch;
+    background: var(--brand-light-color);
+    color: white;
+    outline: none;
+    border: none;
+    padding: 8px 16px;
+    font-weight: 700;
+    font-size: 18px;
+    border-radius: 8px;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+    -webkit-border-radius: ;
+    -moz-border-radius: ;
+    -ms-border-radius: ;
+    -o-border-radius: ;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+}
+
+.gridCard .btn:hover {
+    background: var(--brand-dark-color);
+}
+
+
+/* -_- */
+
+.searchBtn {
+    background-color: var(--brand-light-color);
+}
+
+
+/* bookcard styling  */
+
+.book-card {
+    width: 80%;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    padding: 0 10px;
+    border: 1px solid black;
+}
+
+.left-section {
+    display: flex;
+    width: 50%;
+    gap: 10px;
+    height: 90%;
+}
+
+.book-card img {
+    width: 20%;
+    height: 60%;
+}
+
+.book-card a {
+    display: block;
+}
+
+.description .text {
+    width: 80%;
+}
+
+.price {
+    display: flex;
+    width: 30%;
+    height: 90%;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.btn-div {
+    width: 50%;
+}
+
+.btn-div button {
+    width: 100%;
+    background-color: #f40202;
+    height: 40px;
+    color: white;
+    border-radius: 10px;
+    -webkit-border-radius: ;
+    -moz-border-radius: ;
+    -ms-border-radius: ;
+    -o-border-radius: ;
+    font-weight: bolder;
+}
+
+
+/* end */
+
+=======
+/* Header Styling */
+
+.upperbanner {
+    background-color: var(--brand-light-color);
+    height: 50 px;
 }
 
 
@@ -90,64 +241,12 @@ h1 {
     background-color: var(--brand-light-color);
 }
 
-
-/* bookcard styling  */
-
-.book-card {
-    width: 80%;
-    height: 300px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 10px;
-    padding: 0 10px;
-    border: 1px solid black;
+.side-menu {
+    font-weight: 600;
 }
 
-.left-section {
-    display: flex;
-    width: 50%;
-    gap: 10px;
-    height: 90%;
+.side-menu li {
+    height: 47 px;
 }
 
-.book-card img {
-    width: 20%;
-    height: 60%;
-}
-
-.book-card a {
-    display: block;
-}
-
-.description .text {
-    width: 80%;
-}
-
-.price {
-    display: flex;
-    width: 30%;
-    height: 90%;
-    justify-content: space-between;
-    gap: 20px;
-}
-
-.btn-div {
-    width: 50%;
-}
-
-.btn-div button {
-    width: 100%;
-    background-color: #f40202;
-    height: 40px;
-    color: white;
-    border-radius: 10px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
-    font-weight: bolder;
-}
-
-
-/* end */
+>>>>>>>625dc1928418c7bbddd95ea23fefb8eba3603b37
