@@ -1,6 +1,6 @@
 :root {
   --brand-light-color: #ff0000;
-  --brand-dark-color: ;
+  --brand-dark-color: #ab0000;
   --background-color: #fff;
   --text-color: #3c374c;
   --h1-color: #878787;
@@ -11,11 +11,11 @@
 }
 
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .roboto-text {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   line-height: 19px;
 }
 
@@ -23,6 +23,67 @@ h1 {
   font-size: 26px;
 }
 
+<<<<<<< HEAD
+/* Grid Card Styling */
+.gridCard {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  position: relative;
+  text-align: start;
+  /* align-items: flex-start; */
+  width: auto;
+  max-width: 220px;
+  gap: 16px;
+}
+
+.gridCard a {
+  color: var(--symbol-color);
+  text-decoration: underline;
+}
+
+.gridCardImg {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.reducedPriceTag {
+  position: absolute;
+  aspect-ratio: 1 / 1;
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-weight: 800;
+  align-items: center;
+  top: 0;
+  left: -4px;
+  z-index: 10;
+  background: var(--brand-light-color);
+  padding: 8px;
+  border-radius: 50% 50% 0 50%;
+}
+
+.gridCard .btn {
+  align-self: stretch;
+  background: var(--brand-light-color);
+  color: white;
+  outline: none;
+  border: none;
+  padding: 8px 16px;
+  font-weight: 700;
+  font-size: 18px;
+  border-radius: 8px;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.gridCard .btn:hover {
+  background: var(--brand-dark-color);
+}
+
+/* -_- */
+=======
 .searchBtn {
   background-color: var(--brand-light-color);
 }
@@ -34,3 +95,4 @@ h1 {
 .side-menu li {
   height: 47 px;
 }
+>>>>>>> aa051c3b1c305cd22f0241f57b667325f9d450c1
