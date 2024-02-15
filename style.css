@@ -12,9 +12,11 @@
 
 body {
   font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .roboto-text {
+  font-family: "Roboto", sans-serif;
   font-family: "Roboto", sans-serif;
   line-height: 19px;
 }
@@ -23,6 +25,12 @@ h1 {
   font-size: 26px;
 }
 
+/* Header Styling */
+
+.upperbanner {
+  background-color: var(--brand-light-color);
+  height: 50 px;
+}
 /* Grid Card Styling */
 .gridCard {
   display: flex;
@@ -84,4 +92,12 @@ h1 {
 /* -_- */
 .searchBtn {
   background-color: var(--brand-light-color);
+}
+
+.side-menu {
+  font-weight: 600;
+}
+
+.side-menu li {
+  height: 47 px;
 }
