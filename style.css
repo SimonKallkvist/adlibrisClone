@@ -10,13 +10,17 @@
   --title-text-color: #191919;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-  font-family: "Montserrat", sans-serif;
   font-family: "Montserrat", sans-serif;
 }
 
 .roboto-text {
-  font-family: "Roboto", sans-serif;
   font-family: "Roboto", sans-serif;
   line-height: 19px;
 }
@@ -29,8 +33,50 @@ h1 {
 
 .upperbanner {
   background-color: var(--brand-light-color);
-  height: 50 px;
+  text-align: center;
+  padding: 16px 0px;
 }
+
+.white-link {
+  color: white;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 32px;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 300px 840px;
+  max-width: 1140px;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.hero {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  min-height: 400px;
+  border: 1px solid grey;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero h2 {
+  align-self: center;
+  margin: 0 auto;
+  display: flex;
+}
+
+.sorting {
+  display: flex;
+  align-self: flex-end;
+}
+
 /* Grid Card Styling */
 .gridCard {
   display: flex;
@@ -99,5 +145,5 @@ h1 {
 }
 
 .side-menu li {
-  height: 47 px;
+  height: 47px;
 }
