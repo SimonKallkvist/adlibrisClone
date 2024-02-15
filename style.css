@@ -26,3 +26,11 @@ h1 {
 .searchBtn {
   background-color: var(--brand-light-color);
 }
+
+.side-menu {
+  font-weight: 600;
+}
+
+.side-menu li {
+  height: 47 px;
+}
